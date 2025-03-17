@@ -1,7 +1,8 @@
 # matting_zc
 
 ## 权重文件说明
-save_model/adapter/train_adapter_221.pth权重文件是stage1训练后得到的权重文件  
+1. 本研究构建的前景对象的精细文本描述数据集已上传在：data/prompt.csv  
+2. save_model/adapter/train_adapter_221.pth权重文件是stage1训练后得到的权重文件  
 Depth_Anything_V2/checkpoints/depth_anything_v2_vitb.pth权重文件是用于得到深度图  
 两个权重文件均大于100M，可能需使用git lfs相关命令进行拉取  
   
